@@ -1,0 +1,243 @@
+:root {
+  --color-principal: #2f80ff;
+  --color-secundario: #00d2ff;
+  --color-oscuro: #0b1724;
+  --color-panel: #122235;
+  --color-texto: #1f2937;
+  --color-suave: #eef5fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-texto);
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+.navbar {
+  background: rgba(11, 23, 36, 0.96);
+  backdrop-filter: blur(8px);
+}
+
+.logo-navbar {
+  width: 54px;
+  height: 34px;
+  object-fit: contain;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.hero-section {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(0, 210, 255, 0.28), transparent 32%),
+    linear-gradient(135deg, #0b1724 0%, #122235 55%, #0d47a1 100%);
+  overflow: hidden;
+}
+
+.hero-card {
+  position: relative;
+}
+
+.hero-card::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  background: linear-gradient(135deg, rgba(0, 210, 255, 0.35), rgba(47, 128, 255, 0.05));
+  border-radius: 30px;
+  z-index: 0;
+}
+
+.hero-card img {
+  position: relative;
+  z-index: 1;
+}
+
+.etiqueta,
+.section-tag {
+  display: inline-block;
+  color: var(--color-principal);
+  background: rgba(47, 128, 255, 0.11);
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.hero-section .etiqueta {
+  color: #dff7ff;
+  background: rgba(0, 210, 255, 0.18);
+  border: 1px solid rgba(0, 210, 255, 0.35);
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.max-width {
+  max-width: 720px;
+}
+
+.dato {
+  background: #ffffff;
+  border: 1px solid #dce8f5;
+  border-radius: 18px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(23, 44, 67, 0.06);
+}
+
+.dato strong {
+  display: block;
+  color: var(--color-principal);
+  font-size: 1.6rem;
+}
+
+.dato span {
+  display: block;
+  font-size: 0.9rem;
+  color: #5b6775;
+}
+
+.service-card,
+.solution-card,
+.project-box {
+  border: 0;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 12px 35px rgba(12, 34, 56, 0.11);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover,
+.solution-card:hover,
+.project-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(12, 34, 56, 0.16);
+}
+
+.card-img-top {
+  height: 185px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: 800;
+  color: var(--color-oscuro);
+}
+
+.icono {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  background: var(--color-suave);
+  font-size: 2rem;
+}
+
+.project-box {
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+  border-left: 6px solid var(--color-principal);
+  padding: 2rem;
+}
+
+.contacto-lista li {
+  margin-bottom: 0.9rem;
+}
+
+.contact-form {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--color-principal);
+  box-shadow: 0 0 0 0.25rem rgba(47, 128, 255, 0.16);
+}
+
+.footer {
+  background: #08111d;
+}
+
+.btn-primary {
+  background-color: var(--color-principal);
+  border-color: var(--color-principal);
+  font-weight: 700;
+}
+
+.btn-primary:hover {
+  background-color: #1e6ee6;
+  border-color: #1e6ee6;
+}
+
+body.dark-mode {
+  background-color: #07111d;
+  color: #e6f0ff;
+}
+
+body.dark-mode .bg-light {
+  background-color: #0f1f31 !important;
+}
+
+body.dark-mode .card,
+body.dark-mode .dato,
+body.dark-mode .project-box {
+  background: #122235;
+  color: #e6f0ff;
+}
+
+body.dark-mode .card-title,
+body.dark-mode .project-box h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .text-muted,
+body.dark-mode .dato span {
+  color: #b7c7d9 !important;
+}
+
+body.dark-mode .contact-form {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+@media (max-width: 991px) {
+  .hero-section {
+    text-align: center;
+  }
+
+  .section-padding {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .display-4 {
+    font-size: 2.35rem;
+  }
+
+  .navbar-brand span {
+    font-size: 0.95rem;
+  }
+
+  .section-padding {
+    padding: 3.2rem 0;
+  }
+}

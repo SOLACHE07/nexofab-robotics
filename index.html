@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web académica de empresa ficticia industrial NexoFab Robotics.">
+  <title>NexoFab Robotics | Automatización industrial</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm" aria-label="Navegación principal">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="Ir al inicio">
+        <img src="img/logo-nexofab.svg" alt="Logotipo de NexoFab Robotics" class="logo-navbar">
+        <span>NexoFab Robotics</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#quienes-somos">Quiénes somos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#soluciones">Soluciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+        <button id="modoOscuro" class="btn btn-outline-info btn-sm ms-lg-3" type="button">Modo oscuro</button>
+      </div>
+    </div>
+  </nav>
+
+  <header id="inicio" class="hero-section text-white">
+    <div class="container">
+      <div class="row align-items-center min-vh-100 py-5">
+        <div class="col-lg-7">
+          <p class="etiqueta mb-3">Industria 4.0 · Robótica · PLC · SCADA</p>
+          <h1 class="display-4 fw-bold mb-4">Automatizamos líneas industriales para producir mejor, más seguro y con datos en tiempo real.</h1>
+          <p class="lead mb-4">NexoFab Robotics es una empresa ficticia especializada en automatización industrial, integración de células robotizadas y digitalización de procesos productivos.</p>
+          <div class="d-flex flex-column flex-sm-row gap-3">
+            <a href="#servicios" class="btn btn-primary btn-lg">Ver servicios</a>
+            <a href="#contacto" class="btn btn-outline-light btn-lg">Solicitar presupuesto</a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <div class="hero-card">
+            <img src="img/automatizacion.jpg" alt="Ilustración de automatización industrial con PLC, robot y cinta transportadora" class="img-fluid rounded-4 shadow">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="quienes-somos" class="section-padding bg-light">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <img src="img/robotica.jpg" alt="Brazo robótico colaborativo en una célula de producción" class="img-fluid rounded-4 shadow-sm">
+          </div>
+          <div class="col-lg-6">
+            <p class="section-tag">Quiénes somos</p>
+            <h2 class="fw-bold">Ingeniería ficticia para fábricas inteligentes</h2>
+            <p>NexoFab Robotics diseña soluciones de automatización para pequeñas y medianas plantas industriales que desean reducir paradas, mejorar la seguridad y controlar su producción mediante datos.</p>
+            <p>Nuestros clientes ficticios pertenecen a sectores como alimentación, packaging, metal, logística interna y montaje de componentes. Todos los datos de esta página son inventados para una práctica académica.</p>
+            <div class="row text-center mt-4 g-3">
+              <div class="col-6 col-md-4"><div class="dato"><strong>24/7</strong><span>Monitorización</span></div></div>
+              <div class="col-6 col-md-4"><div class="dato"><strong>+35%</strong><span>Productividad</span></div></div>
+              <div class="col-12 col-md-4"><div class="dato"><strong>0</strong><span>Datos reales usados</span></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-tag">Servicios industriales</p>
+          <h2 class="fw-bold">Servicios principales</h2>
+          <p class="text-muted mx-auto max-width">Soluciones inventadas, coherentes con el sector industrial, pensadas para una web corporativa responsive.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 service-card">
+              <img src="img/automatizacion.jpg" class="card-img-top" alt="Sistema automatizado con PLC y cinta transportadora">
+              <div class="card-body">
+                <h3 class="h5 card-title">Automatización con PLC</h3>
+                <p class="card-text">Programación ficticia de PLC, puesta en marcha de sensores, actuadores y secuencias automáticas.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 service-card">
+              <img src="img/scada.jpg" class="card-img-top" alt="Pantallas SCADA con gráficos y depósitos industriales">
+              <div class="card-body">
+                <h3 class="h5 card-title">SCADA y supervisión</h3>
+                <p class="card-text">Paneles de control, alarmas, históricos y visualización del estado de la planta en tiempo real.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 service-card">
+              <img src="img/robotica.jpg" class="card-img-top" alt="Robot colaborativo trabajando en entorno industrial seguro">
+              <div class="card-body">
+                <h3 class="h5 card-title">Células robotizadas</h3>
+                <p class="card-text">Diseño ficticio de estaciones robotizadas para paletizado, manipulación y control de calidad.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <article class="card h-100 service-card">
+              <img src="img/iot-industrial.jpg" class="card-img-top" alt="Red de sensores IoT conectados a una plataforma industrial">
+              <div class="card-body">
+                <h3 class="h5 card-title">IoT y mantenimiento</h3>
+                <p class="card-text">Sensores conectados para temperatura, vibración y consumo energético con avisos preventivos.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="soluciones" class="section-padding bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-tag">Productos o soluciones</p>
+          <h2 class="fw-bold">Soluciones NexoFab</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 solution-card">
+              <div class="card-body">
+                <span class="icono">⚙️</span>
+                <h3 class="h5 mt-3">Cuadro NX-Control</h3>
+                <p>Cuadro de control ficticio con protecciones, variadores y comunicaciones industriales para líneas de producción.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 solution-card">
+              <div class="card-body">
+                <span class="icono">📊</span>
+                <h3 class="h5 mt-3">Plataforma NX-SCADA</h3>
+                <p>Interfaz de supervisión con alarmas, tendencias, indicadores de disponibilidad y paneles para operarios.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 solution-card">
+              <div class="card-body">
+                <span class="icono">🤖</span>
+                <h3 class="h5 mt-3">Cobot NX-Pick</h3>
+                <p>Célula colaborativa ficticia para pick & place, clasificación de piezas y apoyo a tareas repetitivas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section-padding">
+      <div class="container">
+        <div class="text-center mb-5">
+          <p class="section-tag">Casos de éxito</p>
+          <h2 class="fw-bold">Proyectos inventados</h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <article class="project-box h-100">
+              <h3 class="h4">Línea flexible para packaging</h3>
+              <p><strong>Problema:</strong> una línea ficticia sufría cambios de formato lentos y errores en el conteo de cajas.</p>
+              <p><strong>Solución:</strong> instalación simulada de sensores, PLC y pantalla HMI para ajustar recetas desde un panel.</p>
+              <p><strong>Resultado:</strong> reducción inventada del 28% en tiempos de cambio y mayor trazabilidad de producción.</p>
+            </article>
+          </div>
+          <div class="col-lg-6">
+            <article class="project-box h-100">
+              <h3 class="h4">Monitorización de motores críticos</h3>
+              <p><strong>Problema:</strong> paradas no planificadas en motores de una planta ficticia de montaje.</p>
+              <p><strong>Solución:</strong> sensores IoT de vibración y temperatura conectados a un panel de avisos preventivos.</p>
+              <p><strong>Resultado:</strong> detección temprana de anomalías y planificación de mantenimiento antes de la avería.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section-padding bg-dark text-white">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="section-tag text-info">Contacto</p>
+            <h2 class="fw-bold">Solicita una propuesta ficticia</h2>
+            <p>Formulario de demostración para la práctica. No envía datos a ningún servidor: JavaScript muestra una confirmación local.</p>
+            <ul class="list-unstyled contacto-lista">
+              <li><strong>Email:</strong> contacto@nexofab.local</li>
+              <li><strong>Teléfono:</strong> 900 000 000</li>
+              <li><strong>Dirección:</strong> Polígono Industrial Inventado, Nave 12, 00000 Ciudad Ficticia</li>
+            </ul>
+          </div>
+          <div class="col-lg-7">
+            <form id="formularioContacto" class="contact-form bg-white text-dark rounded-4 p-4 shadow" novalidate>
+              <div id="mensajeFormulario" class="alert d-none" role="alert"></div>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre ficticio" required>
+                  <div class="invalid-feedback">Introduce un nombre.</div>
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="ejemplo@correo.local" required>
+                  <div class="invalid-feedback">Introduce un correo válido.</div>
+                </div>
+                <div class="col-12">
+                  <label for="tipoConsulta" class="form-label">Tipo de consulta</label>
+                  <select class="form-select" id="tipoConsulta" name="tipoConsulta" required>
+                    <option value="" selected disabled>Selecciona una opción</option>
+                    <option>Automatización con PLC</option>
+                    <option>Sistema SCADA</option>
+                    <option>Robótica colaborativa</option>
+                    <option>Mantenimiento predictivo</option>
+                  </select>
+                  <div class="invalid-feedback">Selecciona un tipo de consulta.</div>
+                </div>
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="mensaje" name="mensaje" rows="5" maxlength="300" placeholder="Describe brevemente la necesidad ficticia de tu planta" required></textarea>
+                  <div class="d-flex justify-content-between small mt-1">
+                    <span class="invalid-feedback d-block">Escribe un mensaje.</span>
+                    <span><span id="contadorCaracteres">0</span>/300 caracteres</span>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary btn-lg w-100">Enviar solicitud ficticia</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer py-4 text-center text-white">
+    <div class="container">
+      <p class="mb-1">© <span id="anioActual"></span> NexoFab Robotics. Empresa ficticia.</p>
+      <p class="mb-0 small">Web creada para una práctica académica de Desarrollo Web. No incluye datos reales, contraseñas, IPs reales ni documentación industrial interna.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
