@@ -1,0 +1,1 @@
+Capturas de referencia del diseño incluidas para la entrega. Para la entrega final, se recomienda abrir index.html en el navegador y comprobar la visualización antes de publicar en GitHub Pages.

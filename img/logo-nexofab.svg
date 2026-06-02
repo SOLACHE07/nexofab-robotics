@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="140" viewBox="0 0 480 140" role="img" aria-label="Logotipo de NexoFab Robotics">
+  <rect width="480" height="140" rx="28" fill="#0b1724"/>
+  <path d="M58 96V44h22l34 52h-22L58 44h20v52H58z" fill="#00d2ff"/>
+  <circle cx="143" cy="70" r="30" fill="none" stroke="#2f80ff" stroke-width="10"/>
+  <path d="M138 70h70" stroke="#00d2ff" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="220" cy="70" r="18" fill="#ffa64d"/>
+  <text x="258" y="64" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#f4f8fb">NexoFab</text>
+  <text x="258" y="94" font-family="Arial, sans-serif" font-size="22" fill="#bcd3e8">Robotics</text>
+</svg>
